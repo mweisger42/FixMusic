@@ -1,0 +1,5 @@
+The Python app relies on data from a mysql database. Run the MusciCreate.sql script.
+Download current Discogs Database (artists, masters and releases).
+Run DiscogsDump against each of the Database Files, redirect to artists.dat, masters.dat and releases.dat.
+Use mysqlimport to read the .dat files.
+<< TODO: read data into tags file.
